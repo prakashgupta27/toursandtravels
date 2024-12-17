@@ -9,7 +9,7 @@ import 'swiper/css/bundle';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css';
-import tarachandraji from "../../../public/images/slider/4.jpg"
+import tarachandraji from "../../../public/images/slider/taraji.jpeg"
 import LPP from "../../../public/images/slider/slideOne1.jpeg"
 import LPP2 from "../../../public/images/slider/slideTwo.jpeg"
 import LPP3 from "../../../public/images/slider/slideThree.jpeg"
@@ -53,7 +53,7 @@ const SliderOne = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="slider-item h-full w-full relative mt-24">
+                        <div className="slider-item w-full relative mt-24">
                             <div className="container w-full h-full flex items-center justify-between relative">
                                 <div className="text-content basis-1/2">
                                     <div className="text-sub-display">Explore Now! Up To 50% Off!</div>
@@ -67,18 +67,14 @@ const SliderOne = () => {
                                         alt="bg1-2"
                                         width={670}
                                         height={936}
-                                        style={{
-                                            objectFit: 'cover',
-                                            objectPosition: 'center right',
-                                        }}
-                                        priority={true}
+                                    
                                     />
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="slider-item h-full w-full relative mt-24">
+                        <div className="slider-item w-full relative mt-24">
                             <div className="container w-full h-full flex items-center justify-between relative">
                                 <div className="text-content basis-1/2">
                                     <div className="text-sub-display">Explore Now! Up To 50% Off!</div>
@@ -103,12 +99,12 @@ const SliderOne = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="slider-item h-full w-full relative mt-24">
+                        <div className="slider-item w-full relative mt-24">
                             <div className="container w-full h-full flex items-center justify-between relative">
                                 <div className="text-content basis-1/2">
                                     <div className="text-sub-display">Explore Now! Up To 50% Off!</div>
                                     <div className="text-display md:mt-5 mt-2">
-                                        Enjoy <strong className="text-primary">Desert</strong> tours,
+                                        Enjoy <strong className="text-primary">Desert</strong> tours
                                     </div>
                                 </div>
                                 <div className="sub-img relative w-1/2 h-full flex justify-end items-center">
@@ -128,7 +124,7 @@ const SliderOne = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="slider-item h-full w-full relative mt-24">
+                        <div className="slider-item w-full relative mt-24">
                             <div className="container w-full h-full flex items-center justify-between relative">
                                 <div className="text-content basis-1/2">
                                     <div className="text-sub-display">Explore Now! Up To 50% Off!</div>

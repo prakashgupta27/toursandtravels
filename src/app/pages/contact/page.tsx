@@ -7,7 +7,7 @@ import MenuOne from '@/components/Header/Menu/MenuOne'
 import Breadcrumb from '@/components/Breadcrumb/Breadcrumb';
 import Footer from '@/components/Footer/Footer'
 
-const ContactUs = () => {
+const Aboutus = () => {
     return (
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
@@ -15,35 +15,52 @@ const ContactUs = () => {
                 <MenuOne props="bg-transparent" />
                 <Breadcrumb heading='Contact us' subHeading='Contact us' />
             </div>
-            <div className='contact-us md:py-20 py-10'>
-                <div className="container">
-                    <div className="flex justify-between max-lg:flex-col gap-y-10">
-                        <div className="left lg:w-2/3 lg:pr-4">
-                            <div className="heading3">Drop Us A Line</div>
-                            <div className="body1 text-secondary2 mt-3">Use the form below to get in touch with the indianPrivateChauffeur</div>
-                            <form className="md:mt-6 mt-4">
-                                <div className='grid sm:grid-cols-2 grid-cols-1 gap-4 gap-y-5'>
-                                    <div className="name ">
-                                        <input className="border-line px-4 py-3 w-full rounded-lg" id="username" type="text" placeholder="Your Name *" required />
-                                    </div>
-                                    <div className="email">
-                                        <input className="border-line px-4 pt-3 pb-3 w-full rounded-lg" id="email" type="email" placeholder="Your Email *" required />
-                                    </div>
-                                    <div className="message sm:col-span-2">
-                                        <textarea className="border-line px-4 pt-3 pb-3 w-full rounded-lg" id="message" rows={3} placeholder="Your Message *" required />
-                                    </div>
-                                </div>
-                                <div className="block-button md:mt-6 mt-4">
-                                    <button className="button-main">Send message</button>
-                                </div>
-                            </form>
+            <section className="py-12 bg-gray-100">
+                <div className="container mx-auto px-6">
+                    <div className="flex flex-col lg:flex-row items-center">
+                        {/* Business Owner Section */}
+                        <div className="lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
+                            <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
+                                <Image
+                                    src={'/images/slider/taraji.jpeg'} // Replace with your business owner's image
+                                    alt="Owner of indianPrivateChauffeur"
+                                    width={128}
+                                    height={128}
+                                    className="object-cover w-full h-full"
+                                />
+                            </div>
+                            <h2 className="text-3xl font-semibold text-gray-800 mt-4">Tara Chandra </h2>
+                            <h3 className="text-xl text-gray-800 mt-2">Owner of indianPrivateChauffeur</h3>
+                            <p className="mt-4 text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit amet expedita! Minima distinctio ea eum iste eos neque expedita vel molestias. Delectus labore culpa fugiat enim optio officia inventore.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit amet expedita! Minima distinctio ea eum iste eos neque expedita vel molestias. Delectus labore culpa fugiat enim optio officia inventore.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit amet expedita! Minima distinctio ea eum iste eos neque expedita vel molestias. Delectus labore culpa fugiat enim optio officia inventore.
+                            </p>
+                        </div>
+
+                        {/* About Business Section */}
+                        <div className="lg:w-1/2 pl-0 lg:pl-16 text-center lg:text-left">
+                            <h2 className="text-4xl font-bold text-blue-600">About IndianPrivateChauffeur Business</h2>
+                            <p className="text-lg text-gray-700 mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit amet expedita! Minima distinctio ea eum iste eos neque expedita vel molestias. Delectus labore culpa fugiat enim optio officia inventore.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit amet expedita! Minima distinctio ea eum iste eos neque expedita vel molestias. Delectus labore culpa fugiat enim optio officia inventore.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit amet expedita! Minima distinctio ea eum iste eos neque expedita vel molestias. Delectus labore culpa fugiat enim optio officia inventore.
+                            </p>
+                            <div className="mt-6">
+                                <a
+                                    href="#"
+                                    className="inline-block py-3 px-8 bg-blue-600 text-black font-semibold text-lg rounded-md hover:bg-blue-500 transition duration-300"
+                                >
+                                    Learn More
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <Footer />
         </>
     )
 }
 
-export default ContactUs
+export default Aboutus
