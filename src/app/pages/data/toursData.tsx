@@ -597,11 +597,146 @@ export const tours = [
             },
         ],
         image: '/images/slider/Rajasthan10DayesOne.jpeg',
-    }
+    },
 
+    {   id: "5",
+        title: 'Rajasthan Palace Tour: 10 Days',
+        cities: {
+            destinations: 'Delhi - Jaipur - Sariska - Mandawa - Bikaner - Khimsar - Jodhpur - Delhi',
+            duration: '09 Nights / 10 Days',
+        },
+        description: [
+            {
+                type: 'heading',
+                content: 'Day 01: Arrival at Delhi',
+            },
+            {
+                type: 'text',
+                content: 'Warm traditional welcome at the airport. Transfer to the hotel for an overnight stay.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 02: Delhi',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Visit Red Fort, Jama Masjid, and Chandni Chowk.',
+                    'Explore Rajghat, India Gate, Rashtrapati Bhavan, and Mughal Gardens.',
+                    'Visit Qutub Minar and Humayun\'s Tomb.',
+                    'Evening sound and light show at Red Fort.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 03: Jaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Jaipur and check in at the hotel.',
+                    'Visit Amber Fort, City Palace, Hawa Mahal, Jantar Mantar, Jai Garh Fort, and Sisodia-Rani-Ka-Bagh.',
+                    'Evening shopping or leisure time.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 04: Sariska',
+            },
+            {
+                type: 'text',
+                content: 'Drive to Sariska Wildlife Sanctuary and spot wildlife species, including tigers. Overnight stay at Sariska resort.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 05: Mandawa',
+            },
+            {
+                type: 'text',
+                content: 'Drive to Mandawa. Explore the painted Havelis from the 18th and 19th centuries. Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 06: Bikaner',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Bikaner and visit Camel Breeding Farm, Junagarh Fort, Lalgarh Palace, and Jain Temples.',
+                    'Leisure time in the evening.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 07: Bikaner',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Sightseeing tour of Bikaner, including Junagarh Fort and Jain Temples.',
+                    'Relish the famous Bikaneri Bhujia.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 08: Khimsar',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Travel to Khimsar and check in at the hotel.',
+                    'Visit Khimsar Fort and enjoy traditional Rajasthani cuisine.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 09: Jodhpur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Jodhpur and visit Mehrangarh Fort, Umaid Bhawan Palace, and Jaswant Thada.',
+                    'Evening visit to the local markets.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 10: Delhi',
+            },
+            {
+                type: 'text',
+                content: 'Drive back to Delhi and depart for your onward journey.',
+            },
+        ],
+        image: '/images/slider/Rajasthan10DayesTwo.jpeg',
+    }
     ,   
     {
-        id: "5",
+        id: "6",
         title: 'Rajasthan Ethnic Tour : (10 Days)',
         cities: 'Destinations Covered: Delhi - Agra - Jaipur - Jodhpur - Udaipur - Kishangarh - Delhi',
         description: [
@@ -751,7 +886,7 @@ export const tours = [
     }
     ,
     {
-        id: "6",
+        id: "7",
         title: 'Rajasthan DESERT Tour : (16 Days)',
         cities: 'Destinations Covered: Delhi - Mandawa - Bikaner - Jaisalmer - Jodhpur - Jaipur - Delhi',
         description: [
@@ -862,7 +997,7 @@ export const tours = [
     ,
 
     {
-        id: "7",
+        id: "8",
         title: "Rajasthan FORT– PALACE Tour : (20 Days)",
         cities: "Destinations Covered: Delhi - Agra - Jaipur - Pushkar - Ranthambhore - Kota - Bundi - Chittaurgarh - Bijaipur - Udaipur - Kumbhalgarh - Jodhpur - Jaisalmer - Bikaner - Mandawa - Delhi",
         description: [

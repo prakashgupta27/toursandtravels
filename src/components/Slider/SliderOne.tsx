@@ -124,7 +124,7 @@ const SliderOne = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="slider-item w-full relative mt-24">
+                        <div className="slider-item h-full w-full relative mt-24">
                             <div className="container w-full h-full flex items-center justify-between relative">
                                 <div className="text-content basis-1/2">
                                     <div className="text-sub-display">Explore Now! Up To 50% Off!</div>
